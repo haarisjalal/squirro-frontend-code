@@ -1,0 +1,37 @@
+.table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+th, td {
+  border: 1px solid black;
+  padding: 8px;
+  text-align: left;
+}
+
+th {
+  background-color: #f2f2f2;
+}
+
+img {
+  position:static;
+  width: 100px; 
+  height: 100px; 
+  border-radius: 50%; 
+  object-fit: cover;
+}
+
+.star {
+  text-align: right;
+  position: right;
+}
+
+.first-table {
+  border: 2px solid #333; /* Border color and thickness */
+  padding: 20px; /* Padding inside the border */
+  display: flexbox; /* Allows the wrapper to fit the content width */
+}
+
+.flag {
+  text-align: right;
+}
