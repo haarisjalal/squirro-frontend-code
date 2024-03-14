@@ -1,6 +1,6 @@
-const StarRating = ({ rating }) => {
+const StarRating = ({ store }) => {
   const totalStars = 5;
-  const filledStars = rating;
+  const filledStars = store.attributes.rating;
 
   const stars = [];
   for (let i = 0; i < totalStars; i++) {
@@ -11,7 +11,7 @@ const StarRating = ({ rating }) => {
     }
   }
 
-  return <div>{stars}</div>;
+  return <div className="star">{stars}</div>;
 };
 
 export default StarRating;

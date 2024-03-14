@@ -1,9 +1,9 @@
-.table {
+/* .table {
   border-collapse: collapse;
   width: 100%;
-}
+} */
 
-th, td {
+th, td, .store {
   border: 1px solid black;
   padding: 8px;
   text-align: left;
@@ -14,9 +14,9 @@ th {
 }
 
 img {
-  position:static;
-  width: 100px; 
-  height: 100px; 
+  position:relative;
+  width: 120px; 
+  height: 120px; 
   border-radius: 50%; 
   object-fit: cover;
 }
@@ -26,12 +26,29 @@ img {
   position: right;
 }
 
-.first-table {
-  border: 2px solid #333; /* Border color and thickness */
-  padding: 20px; /* Padding inside the border */
-  display: flexbox; /* Allows the wrapper to fit the content width */
-}
+/* .first-table {
+  border: 2px solid #333;
+  padding: 20px; 
+  display: flexbox;
+} */
 
 .flag {
   text-align: right;
+}
+
+.container {
+  display: flex;
+  border: 2px solid #333; 
+  padding: 20px; /* Padding inside the border */
+}
+
+.left {
+  padding: 30px;
+  padding-top: 100px;
+  width: 10%
+}
+
+.right {
+  padding: 20px;
+  width: 90%;
 }
